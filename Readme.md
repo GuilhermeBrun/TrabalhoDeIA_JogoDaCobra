@@ -26,19 +26,19 @@ Baixe o código do repositório e execute o arquivo como qualquer outro script p
 python Snake_Game.py
 ```
 
-## Botones y configuraciones
+## Botões e configurações
 
-![Controles]
+## Controles
 
 Na tela inicial (menu principal), podemos optar por jogar ou iniciar a simulação com os agente, executando os algoritmos de busca.
 
-![Menu]
+## Menu
 
 Para escolher um algoritmo para o agente, devemos iniciar a simulação selecionando `simulação` no menu principal e depois pressionar `Espaço` para pausar e escolher o algoritmo de nossa escolha.
 
 Por padrão é definido `Greedy_Priority`
 
-![Algoritmo]
+## Algoritmo
 
 Basta pressionar novamente `Espaço` para retornar à simulação e o agente executará o algoritmo selecionado em sua próxima busca.
 
