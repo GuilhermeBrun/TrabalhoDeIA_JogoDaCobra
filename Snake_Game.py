@@ -135,13 +135,13 @@ class Screen(GameObject):
             elif self.difficulty == difficulty_var*2:
                 dif = "< Normal >"
             elif self.difficulty == difficulty_var*3:
-                dif = "< Difícil >"
+                dif = "< Difficult >"
             elif self.difficulty == difficulty_var*4:
-                dif = "< Muy difícil >"
+                dif = "< Very Difficult >"
             elif self.difficulty == difficulty_var*5:
-                dif = "< Imposible"
+                dif = "< Impossible"
             
-            dificultad_surface = my_font.render('Dificultad: ', True, red)
+            dificultad_surface = my_font.render('Dificuldade: ', True, red)
             dif_lvl_surface = my_font.render(dif, True, red)
             dificultad_rect = dificultad_surface.get_rect()
             dif_lvl_surface_rect = dif_lvl_surface.get_rect()
